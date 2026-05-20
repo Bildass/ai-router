@@ -1,0 +1,14 @@
+{
+  "name": "ai-router",
+  "version": "0.1.0",
+  "description": "Smart LLM router with per-provider circuit breaker, health monitoring, cost tracking. OpenAI-compatible API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
