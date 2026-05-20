@@ -1,5 +1,7 @@
 # ai-router
 
+*[English version](README.en.md)*
+
 Chytrý LLM router s per-provider circuit breakerem, health monitoringem a sledováním nákladů. Poskytuje OpenAI-kompatibilní API a směruje requesty na nejvhodnějšího dostupného providera.
 
 ## Spuštění
