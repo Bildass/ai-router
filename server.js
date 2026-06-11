@@ -24,6 +24,7 @@ app.post('/v1/chat/completions', chat.handle);
 // Status / admin
 app.get('/health', status.handleHealth);
 app.get('/status', status.handleStatus);
+app.get('/stats', status.handleStats);
 app.post('/admin/reset/:provider', status.handleReset);
 
 // Root
@@ -35,6 +36,7 @@ app.get('/', (req, res) => {
             chat: 'POST /v1/chat/completions',
             health: 'GET /health',
             status: 'GET /status',
+            stats: 'GET /stats?days=N',
             resetBreaker: 'POST /admin/reset/:provider'
         }
     });

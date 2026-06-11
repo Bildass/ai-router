@@ -7,9 +7,7 @@
       "enabled": true,
       "priority": 10,
       "models": [
-        { "id": "moonshotai/kimi-k2.6", "tags": ["chat", "cs", "tools", "reason"], "costPerMTokIn": 0, "costPerMTokOut": 0 },
-        { "id": "qwen/qwen3-coder-480b-a35b-instruct", "tags": ["code", "tools"], "costPerMTokIn": 0, "costPerMTokOut": 0 },
-        { "id": "deepseek-ai/deepseek-v4-flash", "tags": ["fast", "translate", "correct"], "costPerMTokIn": 0, "costPerMTokOut": 0 }
+        { "id": "moonshotai/kimi-k2.6", "tags": ["chat", "cs", "tools", "reason", "code"], "costPerMTokIn": 0, "costPerMTokOut": 0 }
       ],
       "config": {
         "baseUrl": "${NVIDIA_BRIDGE_URL}",
@@ -40,8 +38,8 @@
       "enabled": true,
       "priority": 50,
       "models": [
-        { "id": "gemini-2.5-flash", "tags": ["chat", "cs", "tools", "fast"], "costPerMTokIn": 0, "costPerMTokOut": 0 },
-        { "id": "gemini-2.5-pro", "tags": ["chat", "cs", "reason"], "costPerMTokIn": 0, "costPerMTokOut": 0 }
+        { "id": "gemini-2.5-flash", "tags": ["chat", "cs", "tools", "fast", "translate", "correct"], "costPerMTokIn": 0, "costPerMTokOut": 0 },
+        { "id": "gemini-2.5-pro", "tags": ["chat", "cs", "reason", "translate", "correct"], "costPerMTokIn": 0, "costPerMTokOut": 0 }
       ],
       "config": {
         "baseUrl": "https://generativelanguage.googleapis.com",
